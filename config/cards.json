@@ -1,0 +1,336 @@
+{
+	"sets": [
+		{
+			"name": "Standard",
+			"setCode": "STD",
+			"cardCount": 86
+		}
+	],
+	"rarities": [
+		{
+			"name": "Common",
+			"color": "white"
+		},
+		{
+			"name": "Uncommon",
+			"color": "green"
+		},
+		{
+			"name": "Rare",
+			"color": "blue"
+		},
+		{
+			"name": "Epic",
+			"color": "purple"
+		},
+		{
+			"name": "Legendary",
+			"color": "orange"
+		}
+	],
+	"types": [
+		{
+			"type": "category",
+			"name": "Equipment",
+			"identifier": "EQUIPMENT"
+		},
+		{
+			"type": "item",
+			"name": "Armor",
+			"category": "Equipment",
+			"identifier": "ARMOR",
+			"cardWidth": 300,
+			"cardHeight": 450
+		},
+		{
+			"type": "item",
+			"name": "Armor Set",
+			"category": "Equipment",
+			"identifier": "ARMOR_SET",
+			"cardWidth": 300,
+			"cardHeight": 450
+		}
+	],
+	"cards": [
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "Knightly Armor",
+			"images": [
+				{
+					"setCode": "STD",
+					"url": "cards/images/std/CARD_KNIGHTLY_ARMOR.png",
+					"artist": "Card Pack Asset"
+				}
+			],
+			"sets": [
+				{
+					"setCode": "STD",
+					"collector_number": 1,
+					"rarity": "Rare"
+				}
+			],
+			"types": [
+				"ARMOR",
+				"ARMOR SET",
+				"EQUIPMENT"
+			],
+			"rules": "Allied Followers have +2/+2<br />You deal 2 more damage while attacking with a weapon",
+			"rulings": [
+				{
+					"date": "2018-01-14",
+					"text": "Changed Cost"
+				}
+			],
+			"properties": [
+				{
+					"name": "Cost",
+					"value": 8
+				}
+			]
+		}
+	]
+}

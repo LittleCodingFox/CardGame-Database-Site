@@ -1,0 +1,25 @@
+{
+	"site_title": "Fairtravel Battle Card Database",
+	"navigation": [
+		{
+			"type": "search"
+		},
+		{
+			"text": "Advanced Search",
+			"type": "link",
+			"href": "advancedsearch.html"
+		},
+		{
+			"text": "Other",
+			"type": "dropdown",
+
+			"items": [
+				{
+					"text": "Game Rules",
+					"type": "link",
+					"href": "gamerules.html"
+				}
+			]
+		}
+	]
+}

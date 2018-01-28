@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Card Game Database</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>
+      body {
+        padding-top: 54px;
+      }
+      @media (min-width: 992px) {
+        body {
+          padding-top: 56px;
+        }
+      }
+
+    </style>
+
+	<link href="css/custom.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Card Game Database</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+			<h1>Advanced Search</h1>
+			<br />
+			
+			<form class="form-inline" action="search.html" method="GET">
+				<table class="table" border="0" cellspacing="0" cellpadding="5">
+					<tr>
+					  <td colspan="2">
+						<input class="btn btn-large btn-primary" type="submit" value="Search" />
+						<input class="btn btn-large" type="reset" value="Reset form" />
+					  </td>
+					</tr>   
+					<tr>
+					  <td width="220">
+						Name:
+					  </td>
+					  <td>
+						<input type="text" name="name" class="span3" />
+					  </td>
+					</tr>
+					<tr>
+					  <td>
+						Rules Text:
+					  </td>
+					  <td>
+						<input type="text" name="rules_text" class="span4" /> 
+					  </td>
+					</tr>  
+					<tr>
+					  <td valign="top">
+						Card Type(s):
+					  </td>
+					  <td>
+						<select name="card_type[]" size="12" multiple="multiple">
+						</select>
+						<br />
+						<small>You can use SHIFT and CTRL keys to select more than one card type.</small>
+					  </td>
+					</tr> 
+					<tr>
+					  <td>
+						Artist:
+					  </td>
+					  <td>
+						<input type="text" name="artist" class="span4" /> 
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan="2">
+						<input class="btn btn-large btn-primary" type="submit" value="Search" />
+						<input class="btn btn-large" type="reset" value="Reset form" />
+					  </td>
+					</tr>
+				</table>
+			</form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="lib/common.js"></script>
+	<script src="lib/advancedsearch.js"></script>
+
+  </body>
+
+</html>
