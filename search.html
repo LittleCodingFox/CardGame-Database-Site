@@ -50,10 +50,38 @@
 	<br />
 	<br />
 	<br />
+	
+	<script id="result-template" type="text/x-handlebars-template">
+		<div class='row-fluid'>
+			<div class='span9'>
+				<div class='media pull-left'>
+					<img width='{{cardWidth}}px' height='{{cardHeight}}px' class='img-rounded lazy' alt='{{cardName}}' title='{{cardName}}' src='{{cardImageURL}}' />
+				</div>
+				<div style='margin-left: {{cardWidth}}px;'>
+					<h1 class='cardtitle'>
+						<a href='#'>{{cardName}}</a>
+					</h1>
+					<p class='cardfront'>{{{cardRules}}}</p>
+					<p>Art by: {{artist}}</p>
+				</div>
+			</div>
+			<div class='span3'>
+				<small><u><strong>Editions:</strong></u><br />
+					{{cardSetList cardSets}}
+				</small>
+			</div>
+		</div>
+	</script>
+	
+	<script id="setCode-template" type="text/x-handlebars-template">
+		{{setName}}&nbsp;({{collectorNumber}}-<span style='color:{{rarityColor}}'>{{rarity}}</span>)<br />
+	</script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/handlebars/handlebars.min-latest.js"></script>
 	<script src="lib/common.js"></script>
 	<script src="lib/search.js"></script>
 
