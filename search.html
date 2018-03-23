@@ -52,20 +52,21 @@
 	<br />
 	
 	<script id="result-template" type="text/x-handlebars-template">
-		<div class='row-fluid'>
-			<div class='span9'>
-				<div class='media pull-left'>
-					<img width='{{cardWidth}}px' height='{{cardHeight}}px' class='img-rounded lazy' alt='{{cardName}}' title='{{cardName}}' src='{{cardImageURL}}' />
-				</div>
-				<div style='margin-left: {{cardWidthExtra}}px;'>
-					<h1 class='cardtitle'>
-						<a href='#'>{{cardName}}</a>
-					</h1>
-					<p class='cardfront'>{{{cardRules}}}</p>
-					<p>Art by: {{artist}}</p>
-				</div>
+		<div class='row'>
+			<div class="col-sm-4">
+				<img class='img-fluid lazy' alt='{{cardName}}' title='{{cardName}}' src='{{cardImageURL}}' />
 			</div>
-			<div class='span3'>
+			<div class="col-md-4">
+				<h1 class='cardtitle'>
+					<a href='#'>{{cardName}}</a>
+				</h1>
+				<p>{{propertyFormat cardProperties "{0} Cost" "COST"}}<br />
+				{{{cardType}}} {{propertyFormat2 cardProperties "{0}/{1}" "ATTACK" "HEALTH"}}</p>
+				<p class='cardfront'>{{{cardRules}}}</p>
+				<p>Art by: {{artist}}</p>
+			</div>
+			<div class='col-sm-4'>
+				<h1>&nbsp;</h1>
 				<small><u><strong>Editions:</strong></u><br />
 					{{cardSetList cardSets}}
 				</small>
